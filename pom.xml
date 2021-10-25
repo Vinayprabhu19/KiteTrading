@@ -13,7 +13,6 @@
 	<artifactId>kitetrading</artifactId>
 	<version>0.1</version>
 	<name>KiteTrading</name>
-	<packaging>war</packaging>
 	<description>Kite Trading</description>
 	<properties>
 		<java.version>1.8</java.version>
