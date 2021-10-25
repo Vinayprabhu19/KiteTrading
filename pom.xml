@@ -33,6 +33,21 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+		<dependency>
+			<groupId>com.zerodha</groupId>
+			<artifactId>kiteconnect</artifactId>
+			<scope>system</scope>
+			<version>3.1.14</version>
+			<systemPath>${project.basedir}/libs/kiteconnect.jar</systemPath>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.json/json -->
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20160810</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
