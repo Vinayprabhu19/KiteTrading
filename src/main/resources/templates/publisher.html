@@ -1,0 +1,10 @@
+<html xmlns:th="https://thymeleaf.org">    
+<form method="post" id="basket-form" action="https://kite.zerodha.com/connect/basket">
+  <input  name="api_key" th:value="${api_key}"></input>
+  <input   id="basket" name="data" th:value="${data}"> </input>
+</form>
+
+<script>
+  document.getElementById("basket-form").submit();
+</script>
+</html>  
